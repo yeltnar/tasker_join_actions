@@ -17,14 +17,17 @@ function readFile_fallback(){
     return JSON.stringify(file_contents);    
 };
 
+function loadText(){
+
+}
 
 (()=>{
 
 
-    const file_text = readFile_fallback();
+    const file_text = loadText();
     const file = JSON.parse(file_text);
 
     console.log(file)
-    alert(JSON.stringify(file))
+    alert(json_file_contents)
 
 })()

@@ -25,6 +25,6 @@ function readFile_fallback(){
     const file = JSON.parse(file_text);
 
     console.log(file)
-    alert(file)
+    alert(JSON.stringify(file))
 
 })()

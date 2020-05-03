@@ -20,11 +20,11 @@ function readFile_fallback(){
 
 (()=>{
 
-    alert("download worked text")
 
     const file_text = readFile_fallback();
     const file = JSON.parse(file_text);
 
     console.log(file)
+    alert(file)
 
 })()

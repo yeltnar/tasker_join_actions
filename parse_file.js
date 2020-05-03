@@ -28,6 +28,6 @@ function loadText(){
     const file = JSON.parse(file_text);
 
     console.log(file)
-    alert(json_file_contents)
+    alert(local("json_file_contents"))
 
 })()

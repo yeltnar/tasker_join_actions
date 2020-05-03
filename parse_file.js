@@ -1,4 +1,5 @@
-function readFile(){
+
+function readFile_fallback(){
     const file_contents = {
         notifications:{
             1:{},
@@ -19,8 +20,9 @@ function readFile(){
 
 (()=>{
 
+    alert("download worked text")
 
-    const file_text = readFile();
+    const file_text = readFile_fallback();
     const file = JSON.parse(file_text);
 
     console.log(file)
